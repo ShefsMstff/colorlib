@@ -1,0 +1,29 @@
+// imports
+@import './helpers/variables';
+@import './layouts/navbar';
+@import './partial/home/image';
+@import './partial/home/photos';
+@import './partial/home/form';
+
+
+// general features
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    margin: 0 auto;
+    width: 1100px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-3{
+    width: calc(100%/12*4);
+}
+.pad{
+padding: 20px ;
+}

@@ -1,0 +1,32 @@
+// form section
+#form {
+    padding: 50px;
+    color: $pages-text;
+    background-color: rgb(5, 5, 33);
+
+    .section-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+        button {
+            padding: 15px 30px;
+            background-color: orangered;
+            font-size: 18px;
+            border-radius: 10px;
+            border: rgb(5, 5, 33);
+        }
+
+        input,
+        select {
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 10px;
+            background-color: transparent;
+            color: $pages-text;
+        }
+
+    }
+
+}

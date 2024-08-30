@@ -1,0 +1,52 @@
+// start section propertires
+#popular-destination {
+    background-color: rgb(238, 235, 235);
+    padding: 10px 0;
+
+    .section-header {
+        margin-top: 30px;
+        padding: 20px 300px;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    // cards values
+    .card {
+        width: 350px;
+        height: 250px;
+        margin-top: 20px;
+        border-radius: 30px;
+        position: relative;
+
+        img {
+            width: 100%;
+            background-repeat: no-repeat;
+            filter: brightness(50%);
+        }
+    }
+
+    // card actions
+    .card-action-name {
+        display: flex;
+        gap: 30px;
+        bottom: 30px;
+        position: absolute;
+        left: 30px;
+        color: $pages-text;
+
+        button {
+            padding: 0 12px;
+            background-color: rgb(49, 231, 247);
+            border: $pages-text;
+            border-radius: 30px;
+            color: $pages-text;
+
+            &:hover {
+                background-color: #ff4757;
+            }
+
+        }
+
+    }
+}
